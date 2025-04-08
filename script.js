@@ -4,7 +4,7 @@ let currFolder;
 let currentaudio=new Audio();
 async function fetchsongs(folder) {
     currFolder=folder
-    let a = await fetch(`${currFolder}/`)
+    let a = await fetch(`/public/${currFolder}/`)
     let response = await a.text();
     console.log(response)
     let div = document.createElement('div')
