@@ -1,0 +1,10 @@
+{
+  "public": "public",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/public/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
