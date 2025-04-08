@@ -1,9 +1,5 @@
 {
-  "public": "songs",
-  "routes": [
-    {
-      "src": "/songs/(.*)",
-      "dest": "/songs/$1"
-    }
-  ]
+  "static": {
+    "include": ["songs"]
+  }
 }
